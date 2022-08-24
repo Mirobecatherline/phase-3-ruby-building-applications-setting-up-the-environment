@@ -1,12 +1,11 @@
 #!/usr/bin/env ruby 
 
-require_relative '../lib/garden.rb'
-require_relative '../lib/plant.rb'
+require_relative '../config/environment'
 
 lawn = Garden.new(name: 'Front Lawn')
 
 basil = Plant.new(name: 'Basil')
-basil.garden = lawn
+basil.gardegit@github.com:Mirobecatherline/phase-3-ruby-building-applications-setting-up-the-environment.gitn = lawn
 
 cucumber = Plant.new(name: 'Cucumber')
 cucumber.garden = lawn
